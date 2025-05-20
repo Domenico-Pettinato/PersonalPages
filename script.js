@@ -127,3 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+// Funzione per il caricamento della pagina
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+})
