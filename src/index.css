@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-bg: #0f172a;
+  --accent-color: #38bdf8;
+}
+
+body {
+  background-color: var(--primary-bg);
+  background-image: 
+    radial-gradient(at 47% 33%, hsla(162, 77%, 40%, 0.15) 0, transparent 59%),
+    radial-gradient(at 82% 65%, hsla(218, 39%, 11%, 0.4) 0, transparent 55%);
+  min-height: 100vh;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
